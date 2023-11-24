@@ -11,3 +11,7 @@ func main() {
 func GetVersion() string {
 	return Version
 }
+
+func GetVersionWithInput(input string) string {
+	return input + Version
+}
